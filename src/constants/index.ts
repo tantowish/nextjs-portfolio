@@ -2,24 +2,6 @@ import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
   {
-    name: "Html 5",
-    Image: "/html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Css",
-    Image: "/css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "JavaScript",
-    Image: "/js.png",
-    width: 65,
-    height: 65,
-  },
-  {
     name: "Tailwind Css",
     Image: "/tailwind.png",
     width: 80,
@@ -32,20 +14,13 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-
-  {
     name: "TypeScript",
     Image: "/ts.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Next js 13",
+    name: "Next js",
     Image: "/next.png",
     width: 80,
     height: 80,
@@ -53,12 +28,6 @@ export const SkillData = [
   {
     name: "Framer Motion",
     Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
     width: 80,
     height: 80,
   },
@@ -73,6 +42,36 @@ export const SkillData = [
     Image: "/mongodb.png",
     width: 40,
     height: 40,
+  },
+  {
+    name: "PostgreSQL",
+    Image: "/postges.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "MySQL",
+    Image: "/mysql.png",
+    width: 40,
+    height: 40,
+  },
+  {
+    name: "Laravel",
+    Image: "/laravel.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Flask",
+    Image: "/flask.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Jquery",
+    Image: "/jquery.png",
+    width: 80,
+    height: 80,
   },
 ];
 
@@ -90,16 +89,17 @@ export const Socials = [
     src: "/discord.svg",
   },
 ];
+
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
+    title: "Laravel Blogpost website",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    src: "/blogpost.png",
   },
   {
-    title: "Space Themed Website",
+    title: "Silaboe",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    src: "/silaboe.png",
   },
   {
     title: "Modern Nextjs Portfolio",
@@ -107,9 +107,9 @@ export const Projects = [
     src: "/WebPortfolio.png",
   },
   {
-    title: "Matrix themed Website",
+    title: "Ikagamass",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    src: "/ikagamass.png",
   },
 ];
 

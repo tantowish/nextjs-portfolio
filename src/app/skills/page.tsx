@@ -59,7 +59,7 @@ const SkillPage = () => {
          modules={[Autoplay]}
          className='max-w-[80%]'
         >
-          {SkillData.map((skill, index)=>(
+          {SkillData.reverse().map((skill, index)=>(
             <SwiperSlide key={index}>
               <Image 
               src={skill.Image}
