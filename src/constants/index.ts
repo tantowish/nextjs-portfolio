@@ -52,8 +52,8 @@ export const SkillData = [
   {
     name: "MySQL",
     Image: "/mysql.png",
-    width: 40,
-    height: 40,
+    width: 80,
+    height: 80,
   },
   {
     name: "Laravel",
@@ -79,14 +79,17 @@ export const Socials = [
   {
     name: "Discord",
     src: "/instagram.svg",
+    href: "https://www.instagram.com/tantowi_sh"
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Linkedin",
+    src: "/linkedin.png",
+    href: "https://www.linkedin.com/in/tantowi-shah-hanif"
   },
   {
     name: "Instagram",
     src: "/discord.svg",
+    href: "https://www.instagram.com/tantowi_sh"
   },
 ];
 
@@ -99,17 +102,17 @@ export const Projects = [
   {
     title: "Silaboe",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/silaboe.png",
+    src: "/silaboe.jpg",
   },
   {
     title: "Modern Nextjs Portfolio",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    src: "/WebPortfolio.jpg",
   },
   {
     title: "Ikagamass",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/ikagamass.png",
+    src: "/ikagamass.jpg",
   },
 ];
 
