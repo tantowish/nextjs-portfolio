@@ -5,9 +5,9 @@ import React from 'react'
 const ProjectPage = () => {
   return (
     <div 
-    style={{ backgroundImage: "url(/mountains.jpg)" }}
-    className='w-screen h-screen flex flex-wrap items-center justify-center bg-center bg-cover'>
-      <div className='grid grid-cols-2 gap-5 max-w-[90%] max-h-[90%]'>
+    style={{ backgroundImage: "url(/mountains.jpg)", overflow:'none' }}
+    className='flex flex-wrap items-center justify-center bg-center bg-cover'>
+      <div className='grid lg:grid-cols-2 grid-cols-1 gap-5 '>
         {Projects.map((project, index)=>(
           <ProjectCard
             key={index}
